@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Alura\\Calisthenics\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alura\\Calisthenics\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9",
+        "phpspec/prophecy": "^1.15",
+        "php-ds/php-ds": "^1.4"
+    }
+}
